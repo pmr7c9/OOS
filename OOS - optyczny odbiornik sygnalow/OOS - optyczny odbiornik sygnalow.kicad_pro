@@ -796,7 +796,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -808,7 +808,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -859,7 +859,7 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -919,7 +919,7 @@
           "group_by": false,
           "label": "Supplier Link",
           "name": "Supplier Link",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -933,7 +933,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Datasheet"
+      "sort_field": "Package"
     },
     "connection_grid_size": 50.0,
     "drawing": {
