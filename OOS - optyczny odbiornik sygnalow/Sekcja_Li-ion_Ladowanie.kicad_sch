@@ -2899,7 +2899,7 @@
 		)
 		(uuid "9a64f1ea-bd13-42ba-9e14-ca5433665d98")
 	)
-	(text_box "Review notes:"
+	(text_box "Review notes:\n - Add supplier link for U4, U5 and U6 and all transistors and schotkky diode\n - Add LED for +3V3 indication\n - Add a fuse in serial with the battery\n - In the battery footprint, put more copper on the pins\n - Add an LED to indicate that that the battery voltage dropped to ~3V7 (in parallel with the battry)"
 		(exclude_from_sim no)
 		(at 94.615 151.13 0)
 		(size 81.28 46.355)
