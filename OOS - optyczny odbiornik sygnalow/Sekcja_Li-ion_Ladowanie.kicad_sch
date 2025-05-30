@@ -2664,6 +2664,19 @@
 		)
 		(uuid "11fb296b-8610-43d2-aabb-8b25f5a64761")
 	)
+	(text "Take voltage for boost converter from here"
+		(exclude_from_sim no)
+		(at 193.675 77.47 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "3a4f78e2-44b4-4bac-be42-9dbb4e44b645")
+	)
 	(text "Vin 1V5 to 5V5"
 		(exclude_from_sim no)
 		(at 138.43 83.82 0)
