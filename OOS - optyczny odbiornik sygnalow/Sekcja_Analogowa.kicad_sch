@@ -1425,6 +1425,530 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Rotary_1x8_MP"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Rotary_1x8_MP"
+				(at 10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary switch 1x8, SP8T with mount point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Rotary switch 1x8 SP8T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Rotary_1x8_MP_0_1"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.9276 0.6604) (xy -3.9116 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 6.985)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.2226 2.2225)
+					(mid -1.116 0.449)
+					(end -1.5876 -1.5875)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5876 -1.5875) (xy -1.5876 -0.6985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5876 -1.5875) (xy -1.5876 -1.5875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5876 -1.5875) (xy -0.8256 -1.0795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 6.35)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -6.35)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -4.445)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 0.635 -7.62) (xy 0.635 -6.35) (xy -0.635 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Rotary_1x8_MP_1_1"
+				(polyline
+					(pts
+						(xy -7.62 11.43) (xy 5.08 11.43) (xy 5.08 -8.89) (xy -7.62 -8.89) (xy -7.62 11.43) (xy -7.62 11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -3.81 10.16) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1800,7 +2324,7 @@
 	)
 	(text "Mounting holes\nFiducials"
 		(exclude_from_sim no)
-		(at 95.885 153.035 0)
+		(at 234.95 31.75 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1810,6 +2334,19 @@
 			(justify left top)
 		)
 		(uuid "38074307-6db2-4b8a-972d-4cd213b22984")
+	)
+	(text "add rotary switch for changing gain"
+		(exclude_from_sim no)
+		(at 163.83 70.485 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "409c5b17-08a8-425a-a027-04ba8d15db36")
 	)
 	(text "AC Coupling"
 		(exclude_from_sim no)
@@ -1966,8 +2503,8 @@
 	)
 	(text_box "Review notes:\n - provide datasheet links to C1 - C6, - Done\n - provide links to Supplier's website. Saves time during search, order and veryfying nr in stock, - Done\n - provide calculations for voltage dividers R5 - R7, - Done\n - change footprint for passive components for \"HandSolder\" equivalent size, - Done\n - change V_photo text from +20V up to +32V, - Done\n - decimal writing not consistant. Please use only \",\" or only \".\", - Done\n - capacitors connected to V_{photo} (C7 - C9) need voltage rating at least 2 * 32V, changed C8 and C9 for 50V, should be enough, - Done\n - net labels around U1 and U2 are covered by test points and nets. Also make them a bit larger, - Done\n - Find different C7 with X7R dielectric - no need for X7R, the ambient will not go higher than 30C, - Done\n - add layout notes."
 		(exclude_from_sim no)
-		(at 184.15 28.194 0)
-		(size 97.155 41.656)
+		(at 92.71 151.13 0)
+		(size 83.185 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2011,8 +2548,8 @@
 	)
 	(text_box "Design note:\n- Add capacitor C110 (100n)\n- Add capacitor C109 after revire (10n)\n- Change capacitor C101 from 3p to 1p\n- Change capacitor C103 from 1n to 100p\n- Change resistor from 1k to 100\n- Change resistor from 10k to 1k\n- Change capacitor from 1n to 1p"
 		(exclude_from_sim no)
-		(at 68.58 151.13 0)
-		(size 25.4 46.355)
+		(at 66.04 151.13 0)
+		(size 25.4 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2077,8 +2614,8 @@
 	)
 	(text_box "Layout note:\n- Place C10 and R8 close to pin 4 and 1 of U1 (OPA300AIDBVR)\n- Place decoupling capacitors close to U1 and U2\n- Place R9 and R10 close to pin 4 and 1 of U2 (OPA300AIDBVR)\n- Do not connect mounting holes to any net\n"
 		(exclude_from_sim no)
-		(at 40.64 151.13 0)
-		(size 25.4 46.355)
+		(at 39.37 151.13 0)
+		(size 25.4 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2102,7 +2639,7 @@
 	(text_box "Project note:\n- BPX65\n- OPA300AIDBVR\nFEATURES\n High Bandwidth: 150MHz\n 16-Bit Settling in 150ns\n Low Noise: 3nV/√Hz\n Low Distortion: 0.003%\n Low Power: 9.5mA (typ) on 5.5V\n Shutdown to 5μA\n Unity-Gain Stable\n Excellent Output Swing:\n(V+) − 100mV to (V−) + 100mV\n Single Supply: +2.7V to +5.5V\n Tiny Packages: MSOP and SOT23"
 		(exclude_from_sim no)
 		(at 12.7 151.13 0)
-		(size 25.4 46.355)
+		(size 25.4 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2891,7 +3428,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.845 150.495) (xy 120.65 150.495)
+			(xy 284.48 150.495) (xy 120.65 150.495)
 		)
 		(stroke
 			(width 0)
@@ -3049,16 +3586,6 @@
 		)
 		(uuid "7ce9ba60-c7b6-4303-bb43-82c2e2c9c918")
 	)
-	(polyline
-		(pts
-			(xy 175.895 151.765) (xy 175.895 197.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e272c5c-8b7e-455f-b8b8-bbf4895267a0")
-	)
 	(wire
 		(pts
 			(xy 76.2 50.8) (xy 76.2 52.07)
@@ -3129,16 +3656,6 @@
 		)
 		(uuid "8caed0d2-7ac7-4563-8271-d9f4d20c0f1a")
 	)
-	(polyline
-		(pts
-			(xy 95.25 151.765) (xy 95.25 197.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb5ee40-56fb-45de-8e46-5fb308a77c26")
-	)
 	(wire
 		(pts
 			(xy 186.69 93.345) (xy 194.31 93.345)
@@ -3181,7 +3698,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.845 27.305) (xy 283.845 150.495)
+			(xy 284.48 27.305) (xy 284.48 150.495)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3838,7 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 27.305) (xy 283.845 27.305)
+			(xy 120.65 27.305) (xy 284.48 27.305)
 		)
 		(stroke
 			(width 0)
@@ -3338,16 +3855,6 @@
 			(type default)
 		)
 		(uuid "b1b9dfac-0acc-488a-9a16-37d335bbb4a8")
-	)
-	(polyline
-		(pts
-			(xy 175.895 197.485) (xy 95.25 197.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a7cfb7-ad40-46ff-a312-8cfa8246f70b")
 	)
 	(polyline
 		(pts
@@ -3701,16 +4208,6 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 151.765) (xy 175.895 151.765)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc865c4c-6d2d-45ed-b7cf-51224df42dd6")
-	)
-	(polyline
-		(pts
 			(xy 121.92 71.12) (xy 123.19 71.12)
 		)
 		(stroke
@@ -3835,7 +4332,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 120.65 172.72 0)
+		(at 234.95 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3844,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "0345e6cf-72db-4a89-a48a-700ebbc67805")
 		(property "Reference" "H2"
-			(at 123.19 171.4499 0)
+			(at 237.49 49.5299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3853,7 +4350,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 123.19 173.9899 0)
+			(at 237.49 52.0699 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3862,7 +4359,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 120.65 172.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3871,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 172.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3880,7 +4377,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 120.65 172.72 0)
+			(at 234.95 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5148,7 +5645,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 120.65 166.37 0)
+		(at 234.95 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5157,7 +5654,7 @@
 		(fields_autoplaced yes)
 		(uuid "2987cc99-5102-4974-b18d-a85be02e8b20")
 		(property "Reference" "H1"
-			(at 123.19 165.0999 0)
+			(at 237.49 43.1799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5166,7 +5663,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 123.19 167.6399 0)
+			(at 237.49 45.7199 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5175,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 120.65 166.37 0)
+			(at 234.95 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5184,7 +5681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 166.37 0)
+			(at 234.95 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5193,7 +5690,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 120.65 166.37 0)
+			(at 234.95 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5911,7 +6408,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 120.65 179.07 0)
+		(at 234.95 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5920,7 +6417,7 @@
 		(fields_autoplaced yes)
 		(uuid "43255b88-805d-449b-bcb6-4969cce92d88")
 		(property "Reference" "H3"
-			(at 123.19 177.7999 0)
+			(at 237.49 55.8799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5929,7 +6426,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 123.19 180.3399 0)
+			(at 237.49 58.4199 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5938,7 +6435,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 120.65 179.07 0)
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5947,7 +6444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 179.07 0)
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5956,7 +6453,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 120.65 179.07 0)
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6638,7 +7135,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 146.05 172.72 0)
+		(at 260.35 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6647,7 +7144,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e8d7a6e-e021-4b87-b391-e761548e7ed3")
 		(property "Reference" "FID2"
-			(at 149.225 171.4499 0)
+			(at 263.525 49.5299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6656,7 +7153,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 149.225 173.9899 0)
+			(at 263.525 52.0699 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6665,7 +7162,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 146.05 172.72 0)
+			(at 260.35 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6674,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 172.72 0)
+			(at 260.35 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6683,7 +7180,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 146.05 172.72 0)
+			(at 260.35 50.8 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6771,7 +7268,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 146.05 166.37 0)
+		(at 260.35 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6780,7 +7277,7 @@
 		(fields_autoplaced yes)
 		(uuid "6908d933-4dab-4d39-81e8-4d15f410385a")
 		(property "Reference" "FID1"
-			(at 149.225 165.0999 0)
+			(at 263.525 43.1799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6789,7 +7286,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 149.225 167.6399 0)
+			(at 263.525 45.7199 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6798,7 +7295,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 146.05 166.37 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6807,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 166.37 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6816,7 +7313,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 146.05 166.37 0)
+			(at 260.35 44.45 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6904,7 +7401,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 146.05 179.07 0)
+		(at 260.35 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6913,7 +7410,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bbabf75-d27c-4ce0-8822-699fb2f3c312")
 		(property "Reference" "FID3"
-			(at 149.225 177.7999 0)
+			(at 263.525 55.8799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6922,7 +7419,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 149.225 180.3399 0)
+			(at 263.525 58.4199 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6931,7 +7428,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 146.05 179.07 0)
+			(at 260.35 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6940,7 +7437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 179.07 0)
+			(at 260.35 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6949,7 +7446,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 146.05 179.07 0)
+			(at 260.35 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7105,8 +7602,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Rotary_1x8_MP")
+		(at 167.005 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72bf53ee-f637-41a7-bbc0-7cae8ab84e14")
+		(property "Reference" "SW1"
+			(at 165.735 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x8_MP"
+			(at 165.735 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7040B"
+			(at 165.735 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.735 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x8, SP8T with mount point"
+			(at 167.005 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "f94b0c21-1262-4633-bd0b-54f2d9eca738")
+		)
+		(pin "6"
+			(uuid "320f1279-5c96-4b9e-8e63-479c2ba38db8")
+		)
+		(pin "7"
+			(uuid "b03cee1e-ef13-4324-907e-934558954e73")
+		)
+		(pin "2"
+			(uuid "1452e9d2-4024-42aa-8708-e407ee10739b")
+		)
+		(pin "1"
+			(uuid "6c22404d-894a-4b5e-8ad1-29cab56fc3d5")
+		)
+		(pin "4"
+			(uuid "7a05aa7c-9c63-4f31-bcb2-8379d0a99c35")
+		)
+		(pin "5"
+			(uuid "7d91f214-8b9b-4e2d-ba9a-e1247df4e666")
+		)
+		(pin "3"
+			(uuid "cf409d8e-1b18-4fa5-806d-725c1a623bf6")
+		)
+		(pin "8"
+			(uuid "bb83eef4-efa0-4f12-9f87-ab289d50f42d")
+		)
+		(pin "9"
+			(uuid "4ecb4b75-d473-4dfe-9ece-3f8b28ab89ea")
+		)
+		(instances
+			(project ""
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 120.65 185.42 0)
+		(at 234.95 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7115,7 +7704,7 @@
 		(fields_autoplaced yes)
 		(uuid "769b90f9-8ab0-49f6-9e52-fa5591094ddc")
 		(property "Reference" "H4"
-			(at 123.19 184.1499 0)
+			(at 237.49 62.2299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7124,7 +7713,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 123.19 186.6899 0)
+			(at 237.49 64.7699 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7133,7 +7722,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 120.65 185.42 0)
+			(at 234.95 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7142,7 +7731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 185.42 0)
+			(at 234.95 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7151,7 +7740,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 120.65 185.42 0)
+			(at 234.95 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
