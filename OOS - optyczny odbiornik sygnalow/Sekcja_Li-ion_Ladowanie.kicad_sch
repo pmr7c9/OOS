@@ -970,6 +970,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2746,7 +2882,7 @@
 	(text_box "Project note:\n- MCP73831-2-OT\n- AP9101CAK6-ANTRG1\n- AP2126K-ADJTRG1\nFEATURES\n Switchable load between USB3.2 and Li-Ion battery\n 1S configuraiton\n +3V3 is created from Li-ion or USB3.2"
 		(exclude_from_sim no)
 		(at 12.7 151.13 0)
-		(size 26.035 46.355)
+		(size 25.4 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2832,8 +2968,8 @@
 	)
 	(text_box "Design note:\n- For PROG U4 current is set to 500mA\n- For I_{DOC} U5 current has max value 1.5A\n- For ADJ U6 voltage is set to 3V3\n"
 		(exclude_from_sim no)
-		(at 67.31 151.13 0)
-		(size 26.035 46.355)
+		(at 66.04 151.13 0)
+		(size 25.4 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2856,8 +2992,8 @@
 	)
 	(text_box "Layout note:\n- Keep C18 close to pin 4 of U4\n- Keep C21 close to pin 5 of U5\n- Keep C20 and C17 close to pin 1 of U6\n- Keep feedback for U6 close to pin 4 ADJ of U6\n- Keep power tracks with enough width\n- Keep signal track around 0.2mm"
 		(exclude_from_sim no)
-		(at 39.878 151.13 0)
-		(size 26.162 46.355)
+		(at 39.243 151.13 0)
+		(size 25.527 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2899,10 +3035,10 @@
 		)
 		(uuid "9a64f1ea-bd13-42ba-9e14-ca5433665d98")
 	)
-	(text_box "Review notes:\n - Add supplier link for U4, U5 and U6 and all transistors and schotkky diode\n - Add LED for +3V3 indication\n - Add a fuse in serial with the battery\n - In the battery footprint, put more copper on the pins\n - Add an LED to indicate that that the battery voltage dropped to ~3V7 (in parallel with the battry)"
+	(text_box "Review notes:\n - Add supplier link for U4, U5 and U6 and all transistors and schotkky diode - Done\n - Add LED for +3V3 indication - removed from page 4, moved to page 5 - Done\n - Add a fuse in serial with the battery - Done\n - In the battery footprint, put more copper on the pins - Will be taken into account during layout phase\n - Add an LED to indicate that the battery voltage dropped to ~3V7 (in parallel with the battry) - Will be implemented in revision 3.0.0"
 		(exclude_from_sim no)
-		(at 94.615 151.13 0)
-		(size 81.28 46.355)
+		(at 92.71 151.13 0)
+		(size 83.185 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.2032)
@@ -2922,6 +3058,12 @@
 			(justify left top)
 		)
 		(uuid "d0fafe66-5de0-49f5-9aa9-45cb79850e6c")
+	)
+	(junction
+		(at 195.58 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cea1b4a-f489-473b-86c1-4ec88fc970c8")
 	)
 	(junction
 		(at 44.45 76.2)
@@ -3044,6 +3186,12 @@
 		(uuid "6d34494b-97ff-463f-8f55-77f6f768494a")
 	)
 	(junction
+		(at 254 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71db7ba7-acb4-4c00-9802-8cb2afde5c66")
+	)
+	(junction
 		(at 161.925 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3152,6 +3300,12 @@
 		(uuid "def3f175-a260-495a-8b4d-88617e047ee1")
 	)
 	(junction
+		(at 254 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8691519-16bf-4b00-a1f7-54d01888094e")
+	)
+	(junction
 		(at 132.08 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3225,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 76.2) (xy 168.275 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04419fda-ae96-4e99-b980-d2c740005e45")
+	)
+	(wire
+		(pts
 			(xy 237.49 77.47) (xy 237.49 78.74)
 		)
 		(stroke
@@ -3232,6 +3396,26 @@
 			(type default)
 		)
 		(uuid "06d904f7-2d1d-43c5-8382-b7ffa39dc2be")
+	)
+	(polyline
+		(pts
+			(xy 284.48 149.225) (xy 120.65 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097df403-a960-4cfa-bfde-baacccce5fdb")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0decfb25-256b-41db-9bad-860bd16b6784")
 	)
 	(wire
 		(pts
@@ -3292,6 +3476,16 @@
 			(type default)
 		)
 		(uuid "1533b008-6851-4335-ba3b-03292eca0430")
+	)
+	(polyline
+		(pts
+			(xy 12.7 26.035) (xy 12.7 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d95a22-4934-4d76-9a35-557cb6d3326b")
 	)
 	(wire
 		(pts
@@ -3365,13 +3559,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 168.275 76.2)
+			(xy 129.54 76.2) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2208ed8b-ef01-4d00-879a-67e71334a056")
+	)
+	(wire
+		(pts
+			(xy 254 96.52) (xy 254 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c807a7-2a2a-42de-9af9-12c579beda43")
 	)
 	(wire
 		(pts
@@ -3453,6 +3657,16 @@
 		)
 		(uuid "2b6a1d1b-9f27-4bef-8402-82f472e01133")
 	)
+	(polyline
+		(pts
+			(xy 120.65 26.035) (xy 284.48 26.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0ee88a-039f-4fe4-9bc9-2f8ea53c9a95")
+	)
 	(wire
 		(pts
 			(xy 161.925 86.995) (xy 167.005 86.995)
@@ -3525,6 +3739,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 76.2) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3743c0ee-9968-4fd3-b6f9-44fbb35aa4a6")
+	)
+	(wire
+		(pts
 			(xy 200.66 93.98) (xy 200.66 95.25)
 		)
 		(stroke
@@ -3532,6 +3756,16 @@
 			(type default)
 		)
 		(uuid "3c321dd0-0c33-4a1e-88a5-dde469010cd6")
+	)
+	(wire
+		(pts
+			(xy 254 77.47) (xy 257.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db638ce-7c0d-4b21-964d-585e0d2eda3f")
 	)
 	(wire
 		(pts
@@ -3633,6 +3867,16 @@
 		)
 		(uuid "52529348-e417-496a-bf71-e100dc74c50f")
 	)
+	(polyline
+		(pts
+			(xy 284.48 26.035) (xy 284.48 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5267a796-2555-469c-bcc8-b21b9f21dca0")
+	)
 	(wire
 		(pts
 			(xy 94.615 76.2) (xy 103.505 76.2)
@@ -3642,6 +3886,16 @@
 			(type default)
 		)
 		(uuid "53bf4113-7938-4f9e-91a8-2af45789d117")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 254 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585ca9a0-263e-4562-a2b0-3028badff246")
 	)
 	(wire
 		(pts
@@ -3722,16 +3976,6 @@
 			(type default)
 		)
 		(uuid "71ff7de4-6fac-4ff9-8b91-263b37d61369")
-	)
-	(wire
-		(pts
-			(xy 246.38 67.31) (xy 246.38 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735726d0-2775-496e-b2fb-8e4160090ff4")
 	)
 	(wire
 		(pts
@@ -3925,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 77.47) (xy 265.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47163df-8151-4a64-adc2-ec3ccee2860c")
+	)
+	(wire
+		(pts
 			(xy 237.49 86.36) (xy 237.49 87.63)
 		)
 		(stroke
@@ -4005,6 +4259,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 87.63) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35cc31a-e148-4cda-998f-ffadaa8f9e5f")
+	)
+	(wire
+		(pts
 			(xy 125.73 97.155) (xy 128.27 97.155)
 		)
 		(stroke
@@ -4025,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 74.93) (xy 267.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b6d9e3-50a3-48e0-96a5-f8be4609c330")
+	)
+	(wire
+		(pts
 			(xy 97.155 85.09) (xy 97.155 83.82)
 		)
 		(stroke
@@ -4032,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "c8075e65-3a01-4957-9679-ebc01c447c77")
+	)
+	(wire
+		(pts
+			(xy 254 77.47) (xy 254 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c956ca42-4136-4106-bf54-71487fb969df")
 	)
 	(wire
 		(pts
@@ -4053,15 +4337,25 @@
 		)
 		(uuid "ce9313b8-5567-41c1-9d3e-07c4e155fe96")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 246.38 76.2) (xy 246.38 77.47)
+			(xy 120.65 149.225) (xy 12.7 149.225)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d41d0e2b-d570-4a92-acd8-ff45908e4dc1")
+		(uuid "d0d8108f-25d9-491a-bbcf-caa84b6d8b26")
+	)
+	(polyline
+		(pts
+			(xy 12.7 26.035) (xy 120.65 26.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5698425-7534-4cf8-a5fd-4c90948f4598")
 	)
 	(wire
 		(pts
@@ -4105,7 +4399,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 77.47) (xy 200.66 77.47)
+			(xy 246.38 77.47) (xy 254 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcae0de-821d-4423-b724-5a9dc2fa3088")
+	)
+	(wire
+		(pts
+			(xy 193.675 77.47) (xy 195.58 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8017,6 +8321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ap2126k-adjtrg1/stabilizatory-napiecia-regulowane-ldo/diodes-incorporated/"
+			(at 220.98 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e292edee-4218-4aed-90fc-c78e030b3db9")
 		)
@@ -8237,6 +8550,150 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 254 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39981dfb-f15f-4b8d-93b8-f4c5db9c2ab3")
+		(property "Reference" "R2"
+			(at 255.905 80.645 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 255.905 81.915 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 252.222 82.55 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_11.pdf"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "100 mW"
+			(at 255.905 84.455 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 255.905 83.185 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "50ppm/°C"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-072K2L"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ac0603fr-072k2l/rezystory-smd/yageo/"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "75V"
+			(at 254 82.55 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec460c8-59b5-4645-bc8f-0fa23ffbcfb6")
+		)
+		(pin "2"
+			(uuid "a084cee7-b6cc-46a2-a863-ec4bdf51d5e6")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 167.005 92.075 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8376,6 +8833,76 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b4ee602-023a-4e37-8f3a-34079923d286")
+		(property "Reference" "#PWR042"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+V_DCDC_BOOST"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a94d9b0-5d4e-4f25-a4c9-c0a7bc306d66")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8798,7 +9325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP73831-2-OT"
+		(property "Value" "MCP73831T-2ATI/OT"
 			(at 74.295 74.295 0)
 			(effects
 				(font
@@ -8832,6 +9359,15 @@
 			(effects
 				(font
 					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/mcp73831t-2ati_ot/kontrolery-baterii-i-akumulatorow-uklady/microchip-technology/"
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9061,7 +9597,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 246.38 72.39 180)
+		(at 261.62 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9069,16 +9605,16 @@
 		(dnp no)
 		(uuid "4c665575-0c3f-43d6-845e-e418ca68a49a")
 		(property "Reference" "R12"
-			(at 248.285 70.485 0)
+			(at 259.08 75.565 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "0R"
-			(at 248.285 71.755 0)
+			(at 264.16 75.565 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9087,7 +9623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 248.158 72.39 90)
+			(at 261.62 75.692 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9097,7 +9633,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28773/crcwce3.pdf"
-			(at 246.38 72.39 0)
+			(at 261.62 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9107,7 +9643,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 246.38 72.39 0)
+			(at 261.62 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9117,7 +9653,7 @@
 			)
 		)
 		(property "Power Rating" "0.1W"
-			(at 248.285 73.025 0)
+			(at 264.16 79.375 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9126,16 +9662,16 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 248.285 74.295 0)
+			(at 259.08 79.375 90)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Temperature Coefficient" "100 PPM/C"
-			(at 246.38 72.39 90)
+			(at 261.62 77.47 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9145,7 +9681,7 @@
 			)
 		)
 		(property "Voltage Rating" "75 V"
-			(at 246.38 72.39 90)
+			(at 261.62 77.47 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9155,7 +9691,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 246.38 72.39 90)
+			(at 261.62 77.47 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9164,7 +9700,7 @@
 			)
 		)
 		(property "Supplier" "TME"
-			(at 246.38 72.39 0)
+			(at 261.62 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9173,7 +9709,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.tme.eu/pl/details/crcw06030000z0ea/rezystory-smd/vishay/"
-			(at 246.38 72.39 0)
+			(at 261.62 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9250,6 +9786,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ap9101cak6-antrg1/kontrolery-baterii-i-akumulatorow-uklady/diodes-incorporated/"
+			(at 150.495 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1417ea6c-ddfe-447d-af20-b42a21877d85")
 		)
@@ -9272,6 +9817,112 @@
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 254 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f6393bc-b4c2-45b4-b2d9-c708871551aa")
+		(property "Reference" "D2"
+			(at 255.905 92.075 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 255.905 93.345 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c425f8d9d923820338ff70e5cbf9328a/LTST-C191KGKT.pdf"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 254 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 254 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ltst-c191kgkt/diody-led-smd-kolorowe/liteon/"
+			(at 254 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05963fb8-eb84-4a77-9f2f-ba51a68da771")
+		)
+		(pin "1"
+			(uuid "5293e2d5-acfb-4d6d-a680-959dad4159ca")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9987,6 +10638,76 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ab3df5f-b0bd-4692-a458-e53174e602c0")
+		(property "Reference" "#PWR09"
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 254.635 100.33 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b491d04-662d-469b-8c09-0f5058333562")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11485,6 +12206,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 154.94 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbb1fb05-2fe8-4f29-b644-d1a7ade084d5")
+		(property "Reference" "F2"
+			(at 154.94 73.025 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "0ZCJ0110FF2E"
+			(at 154.94 74.295 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 154.94 77.978 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ede4b57335e236a1cff0dbc703b28c62/0ZCJ-DTE.pdf"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Current" "1.1A"
+			(at 153.67 78.105 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Trip Current" "2.2A"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Current" "100A"
+			(at 153.035 78.74 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Voltage" "8V"
+			(at 156.845 78.105 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Power" "0.8W"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Min Resistance" "40m"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Resistance" "180m"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1094686-2ba0-4de6-8126-10165a1c0421")
+		)
+		(pin "1"
+			(uuid "ad85af82-e685-4490-b684-626267024052")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAT54J")
 		(at 184.15 71.12 90)
 		(unit 1)
@@ -11700,6 +12558,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 254 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2bc2b60-b4e4-4f67-8b82-e8a119e3d030")
+		(property "Reference" "TP33"
+			(at 254.635 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 255.27 88.8999 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a423f0-6817-4470-9566-750383907fa6")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/05c61092-e9ac-41ed-9df7-53b962b4049b"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 124.46 74.93 0)
 		(unit 1)
@@ -11767,7 +12695,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 246.38 67.31 0)
+		(at 267.97 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11775,7 +12703,7 @@
 		(dnp no)
 		(uuid "e6cf4ad4-3554-41b7-90a6-6468d81b07af")
 		(property "Reference" "#PWR040"
-			(at 246.38 71.12 0)
+			(at 267.97 78.74 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -11785,7 +12713,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 246.38 64.77 0)
+			(at 267.97 72.39 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -11794,7 +12722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 67.31 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -11804,7 +12732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 67.31 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -11814,7 +12742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 246.38 67.31 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 0.762 0.762)
