@@ -2239,10 +2239,10 @@
 		)
 		(uuid "1a828f0d-c8a2-4029-afba-5b1b9c9146b9")
 	)
-	(text_box "C_{eq} = C_{24} || C_{23} = 98n\n\nf_{lim} = 1/(6.28 * sqrt(2.2uH * 98nF)) = 100kHz\n"
+	(text_box "f_{coff} = 1/(6.28 * sqrt(10uH * 10uF)) = 15.9kHz\n\n"
 		(exclude_from_sim no)
-		(at 195.326 77.216 0)
-		(size 42.926 8.128)
+		(at 204.216 76.962 0)
+		(size 40.894 4.572)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3624,128 +3624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 217.17 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40b3b8f8-2999-4f6f-805b-ee8f085ca114")
-		(property "Reference" "L2"
-			(at 214.63 59.69 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2u2"
-			(at 219.71 59.69 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 217.17 60.96 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b07f1d44eb3454732f5bf2b577d22c0b/MLZ2012.pdf"
-			(at 217.17 60.96 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dławik: ferrytowy; SMD; 0805; 2,2uH; 650mA; 195mΩ; ±20%; -55÷125°C"
-			(at 217.17 60.96 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max. Current" "650 mA"
-			(at 214.376 62.23 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 219.71 62.23 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0805"
-			(at 217.17 60.96 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 217.17 60.96 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" "https://www.tme.eu/pl/details/mlz2012a2r2wt000/dlawiki/tdk/"
-			(at 217.17 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "MLZ2012A2R2WT000"
-			(at 217.17 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a86d736-daf3-4de4-a10f-5446fa1e4387")
-		)
-		(pin "1"
-			(uuid "3d9402c5-0f80-4fdb-b052-352781f3eaff")
-		)
-		(instances
-			(project "OOS - optyczny odbiornik sygnalow"
-				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 184.15 60.96 90)
 		(unit 1)
@@ -3877,140 +3755,6 @@
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49fa2eb2-74c9-41f1-a867-51a958dbab5d")
-		(property "Reference" "C23"
-			(at 231.14 63.5 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 231.14 64.77 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 229.5652 69.85 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "16V"
-			(at 231.14 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 231.14 67.31 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 231.14 68.58 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10B104KO8WPNC"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" "https://www.tme.eu/pl/details/cl10b104ko8wpnc/kondensatory-mlcc-smd/samsung/"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b62f9238-535f-4aad-95c9-cc136a2fc73a")
-		)
-		(pin "1"
-			(uuid "7b5a7ca3-0bfd-4e2a-8380-e6741260a8dc")
-		)
-		(instances
-			(project "OOS - optyczny odbiornik sygnalow"
-				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4416,131 +4160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 204.47 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "944fd096-ec9e-400c-8c63-8a5ebe0c47b5")
-		(property "Reference" "C24"
-			(at 207.01 63.5 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 207.01 64.77 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 205.4352 69.85 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized ceramic capacitor"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "16V"
-			(at 207.01 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 207.01 68.58 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Link" "https://www.tme.eu/pl/en/details/grm188z71c475ke21d/mlcc-smd-capacitors/murata/"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "932f0845-ce37-423a-abb9-c5bcde455b3a")
-		)
-		(pin "1"
-			(uuid "1a8d5b15-e013-486c-9061-3e0748fa5434")
-		)
-		(instances
-			(project "OOS - optyczny odbiornik sygnalow"
-				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 204.47 71.12 0)
 		(unit 1)
@@ -4670,6 +4289,131 @@
 			(project ""
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaddd308-83aa-49d2-a65a-fbe01d4fdbec")
+		(property "Reference" "C23"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 229.5652 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6e14d5d12404104c8b499de9805d45d5/CGA-series.pdf"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized ceramic capacitor"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "75V"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 231.14 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "1210"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/en/details/cga6p1x7r1n106kac/mlcc-smd-capacitors/tdk/cga6p1x7r1n106k250ac/"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b243f612-e49c-42b1-8f48-ddcca8bca1c3")
+		)
+		(pin "1"
+			(uuid "b31cce8e-8b2a-4a09-92f4-27684a192ec6")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4810,6 +4554,140 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa3474a-f286-428e-b8f8-6a7853d464f9")
+		(property "Reference" "C24"
+			(at 207.01 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 207.01 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 205.4352 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_26.pdf"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 207.01 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB105"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/cc0603krx7r7bb105/kondensatory-mlcc-smd/yageo/"
+			(at 204.47 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "067bfd5b-a832-4715-9273-bd76064cb90a")
+		)
+		(pin "1"
+			(uuid "5bc6c282-4311-4172-8476-f792b0216e03")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5079,6 +4957,128 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 217.17 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff4050a-34f0-4703-8be0-6eb1dce4a81c")
+		(property "Reference" "L2"
+			(at 214.63 59.69 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 219.71 59.69 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-1212"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0114.pdf"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dławik: drutowy; SMD; 1212; 10uH; 1200mA; 0,288Ω; ±20%; LQH; 180mm"
+			(at 217.17 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 219.71 62.23 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "1212"
+			(at 217.17 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 217.17 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.tme.eu/pl/details/lqh3npn100mjrl/dlawiki/murata/"
+			(at 217.17 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LQH3NPN100MJRL"
+			(at 217.17 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max current" "1.2A"
+			(at 215.392 62.23 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1951cb8a-b360-4565-b90f-f9dfdaba155e")
+		)
+		(pin "1"
+			(uuid "975b75b8-32f6-4c9c-b2a1-f255816be05f")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "L2")
 					(unit 1)
 				)
 			)
