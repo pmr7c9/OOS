@@ -3460,7 +3460,25 @@
 			"MWlMPUVWFrKzERLS4IlFRSQ6TCAYIN8BAgAgPb2RCWRXrqBz58Ysh3keAwfCwqLBEwmENgexSiIA"
 			"AEpKIJE0RojVajBMY4qhOQ4cR0rpCAQQISYQCIQWh4QmCAQCoYUhQkwgEAgtDBFiAoFAaGGIEBMI"
 			"BEILQ4SYQCAQWhgixAQCgdDCECEmEAiEFoYIMYFAILQwRIgJBAKhhSFCTCAQCC3M/wEWgIiQzR52"
-			"UwAAAABJRU5ErkJggg=="
+			"UwAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAOsti6kAHgiAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAA6S2JqQAfCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADnLY+pACAIgAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAOUtjakAIQiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4y2DqQAiCIAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhLYGpACMIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN8t"
+			"h6kAJAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3S2FqQAlCIAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAADbLbupACYIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANktuakAJwiAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAA1y2/qQAoCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVLb2pACkIgAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAANMts6kAKgiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0S2xqQAr"
+			"CIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPLbepACwIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AM0ttakALQiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyy2rqQAuCIAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAADJLampAC8IgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMctr6kAMAiAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAxS2tqQAxCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDLaOpADIIgAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMEtoakAMwiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPy2n"
+			"qQA0CIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9LaWpADUIgAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAADstW6kANgiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOS1ZqQA3CIAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAA3LV+pADgIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUtXakAOQiAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAMy1TqQA6CIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxLVGpADsI"
+			"gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8tV6kAPAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"LS1VqQA9CIAAAAAAAA=="
 		)
 	)
 	(label "J6_Vbus"
@@ -4296,7 +4314,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 66.04 0)
+		(at 204.47 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4304,7 +4322,7 @@
 		(dnp no)
 		(uuid "aaddd308-83aa-49d2-a65a-fbe01d4fdbec")
 		(property "Reference" "C23"
-			(at 231.14 63.5 0)
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4313,7 +4331,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 231.14 64.77 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4322,7 +4340,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 229.5652 69.85 0)
+			(at 205.4352 69.85 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4332,7 +4350,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/6e14d5d12404104c8b499de9805d45d5/CGA-series.pdf"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4342,7 +4360,7 @@
 			)
 		)
 		(property "Description" "Unpolarized ceramic capacitor"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4352,7 +4370,7 @@
 			)
 		)
 		(property "Voltage Rating" "75V"
-			(at 231.14 66.04 0)
+			(at 207.01 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4361,7 +4379,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 231.14 67.31 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4370,7 +4388,7 @@
 			)
 		)
 		(property "Package" "1210"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4378,7 +4396,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 231.14 68.58 0)
+			(at 207.01 68.58 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4387,7 +4405,7 @@
 			)
 		)
 		(property "Supplier" "TME"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4396,7 +4414,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.tme.eu/pl/en/details/cga6p1x7r1n106kac/mlcc-smd-capacitors/tdk/cga6p1x7r1n106k250ac/"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4561,15 +4579,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 66.04 0)
+		(at 228.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dfa3474a-f286-428e-b8f8-6a7853d464f9")
+		(uuid "e16539cd-d4e1-4af9-abb3-94f061a1f2e6")
 		(property "Reference" "C24"
-			(at 207.01 63.5 0)
+			(at 231.14 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4577,8 +4595,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 207.01 64.77 0)
+		(property "Value" "100n"
+			(at 231.14 64.77 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4587,7 +4605,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 205.4352 69.85 0)
+			(at 229.5652 69.85 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4596,8 +4614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_26.pdf"
-			(at 204.47 66.04 0)
+		(property "Datasheet" "https://www.tme.eu/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf"
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4607,7 +4625,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4617,7 +4635,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 207.01 66.04 0)
+			(at 231.14 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4626,7 +4644,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 207.01 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4635,24 +4653,15 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 207.01 68.58 0)
+			(at 231.14 68.58 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4660,8 +4669,8 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "CC0603KRX7R7BB105"
-			(at 204.47 66.04 0)
+		(property "Supplier" "TME"
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4669,8 +4678,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Link" "https://www.tme.eu/pl/details/cc0603krx7r7bb105/kondensatory-mlcc-smd/yageo/"
-			(at 204.47 66.04 0)
+		(property "MPN" "CL10B104KO8WPNC"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/cl10b104ko8wpnc/kondensatory-mlcc-smd/samsung/"
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4679,10 +4697,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "067bfd5b-a832-4715-9273-bd76064cb90a")
+			(uuid "38ee0201-52e9-43e9-b221-6a0b4b0924d2")
 		)
 		(pin "1"
-			(uuid "5bc6c282-4311-4172-8476-f792b0216e03")
+			(uuid "5c34857c-9cd6-44aa-b683-27bfb96467fd")
 		)
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
