@@ -2277,17 +2277,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "removed indication diode from sekcja analogowa to dcdc boost"
-		(exclude_from_sim no)
-		(at 67.31 144.78 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "0f7bb99e-48f7-4155-a42f-803f22c4a32e")
-	)
 	(text "Square signal\nfnom 2[MHz]\nfmax 15[MHz]\nImin 1[uA]\nImax 100[uA]"
 		(exclude_from_sim no)
 		(at 124.714 62.23 0)
@@ -2310,17 +2299,6 @@
 			)
 		)
 		(uuid "2a80157d-0520-4fd0-866b-88cf63f4fdb4")
-	)
-	(text "changed from short to open"
-		(exclude_from_sim no)
-		(at 104.14 116.84 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "3592570f-658c-4835-887d-ad7070de5fcf")
 	)
 	(text "Mounting holes\nFiducials"
 		(exclude_from_sim no)
@@ -2404,17 +2382,6 @@
 		)
 		(uuid "a7607080-b9df-4056-a936-ed58911bf304")
 	)
-	(text "changed value to be hidden"
-		(exclude_from_sim no)
-		(at 226.06 110.49 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a868156a-771a-4c94-b736-ca62eccb20d1")
-	)
 	(text "${Document Status}"
 		(exclude_from_sim no)
 		(at 12.7 13.335 0)
@@ -2454,17 +2421,6 @@
 		)
 		(uuid "b826ba79-be94-4efe-913d-dac5501e3d02")
 	)
-	(text "changed position 0V on schematic"
-		(exclude_from_sim no)
-		(at 99.695 98.425 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "b82ee954-bda7-4c56-a4ba-f482ee138195")
-	)
 	(text "2V2"
 		(exclude_from_sim no)
 		(at 113.284 111.76 0)
@@ -2476,17 +2432,6 @@
 			(justify right)
 		)
 		(uuid "ce542a01-1367-4122-9d6d-1b1c87c8af4b")
-	)
-	(text "removed connectors for +V_photo, +5V and GND"
-		(exclude_from_sim no)
-		(at 37.465 145.415 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "d956d076-56d2-4f80-bd5b-252a9a6a5486")
 	)
 	(text "Optical receiver"
 		(exclude_from_sim no)
