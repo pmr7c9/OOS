@@ -2355,6 +2355,12 @@
 		(uuid "435c3035-348b-44cd-b411-42feb4622659")
 	)
 	(junction
+		(at 176.53 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f5e273-9fa5-4125-8e38-6c6675b67d08")
+	)
+	(junction
 		(at 171.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,12 +2377,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f1ecc48-4933-4837-9e21-cc86f97edde5")
-	)
-	(junction
-		(at 190.5 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7042e232-5a59-47bf-a8c2-e6aada186aa3")
 	)
 	(junction
 		(at 171.45 58.42)
@@ -2401,6 +2401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6a381a9-fe98-40df-bdb7-e9fb5ba65dcc")
+	)
+	(junction
+		(at 190.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74f5d8c-f396-45b6-acba-df39d4cd7445")
 	)
 	(junction
 		(at 151.13 128.27)
@@ -2483,6 +2489,16 @@
 	(no_connect
 		(at 168.91 73.66)
 		(uuid "ef2d7173-8992-4648-9320-f2dd4a0b1180")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f368195-3175-4e26-ab4e-dc8db5379f37")
 	)
 	(wire
 		(pts
@@ -2896,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 60.96) (xy 180.34 60.96)
+			(xy 171.45 60.96) (xy 176.53 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3482,7 +3498,7 @@
 		)
 	)
 	(label "J6_Vbus"
-		(at 173.99 60.96 0)
+		(at 172.085 60.96 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -4439,7 +4455,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 190.5 60.96 0)
+		(at 176.53 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4447,7 +4463,7 @@
 		(dnp no)
 		(uuid "dc6fe996-b9fb-4bab-bf4c-b786f71f588f")
 		(property "Reference" "TP37"
-			(at 190.5 59.69 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4456,7 +4472,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 191.77 62.2299 0)
+			(at 177.8 62.2299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4466,7 +4482,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 60.96 0)
+			(at 181.61 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4476,7 +4492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 60.96 0)
+			(at 181.61 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4486,7 +4502,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 60.96 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
