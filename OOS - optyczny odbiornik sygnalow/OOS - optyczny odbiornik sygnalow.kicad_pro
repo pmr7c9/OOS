@@ -526,21 +526,54 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "diff_pair_gap": 0.0,
-        "diff_pair_width": 0.0,
-        "line_style": 0,
-        "microvia_diameter": 0.0,
-        "microvia_drill": 0.0,
-        "name": "Power",
-        "pcb_color": "rgb(255, 0, 0)",
+        "clearance": 0.2,
+        "name": "+32V",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "+3V3",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 4,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "+5V",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "Analog",
+        "pcb_color": "rgb(0, 255, 0)",
         "priority": 0,
-        "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.6,
-        "via_diameter": 0.7,
-        "via_drill": 0.4,
-        "wire_width": 6
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "BAT",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -552,7 +585,7 @@
         "microvia_drill": 0.0,
         "name": "Signal",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -567,56 +600,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "+*"
+        "netclass": "+32V",
+        "pattern": "+32*"
       },
       {
-        "netclass": "Power",
-        "pattern": "/BPX65_Cathode"
+        "netclass": "+3V3",
+        "pattern": "+3V3*"
       },
       {
-        "netclass": "Signal",
-        "pattern": "/OPA300_TIA_-"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_TIA_Out"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_TIA_+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_x10_+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_En_Alt_Con"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_En"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_TIA_Out_AC"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "0V"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_x10_-"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_x10_Out"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/OPA300_x10_Out_AC"
+        "netclass": "+5V",
+        "pattern": "+5V*"
       }
     ]
   },
