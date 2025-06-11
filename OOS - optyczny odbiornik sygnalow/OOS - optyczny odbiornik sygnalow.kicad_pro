@@ -942,6 +942,84 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Max Resistance",
+          "name": "Max Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rds typ",
+          "name": "Rds typ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier link",
+          "name": "Supplier link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Voltage",
+          "name": "Max Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max current",
+          "name": "Max current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Trip Current",
+          "name": "Trip Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Min Resistance",
+          "name": "Min Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN1",
+          "name": "MPN1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated Current",
+          "name": "Rated Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Current",
+          "name": "Max Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rds max",
+          "name": "Rds max",
+          "show": false
         }
       ],
       "filter_string": "",

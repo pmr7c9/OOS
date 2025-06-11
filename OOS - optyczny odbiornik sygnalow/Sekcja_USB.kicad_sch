@@ -1561,6 +1561,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2241,7 +2424,7 @@
 	)
 	(text_box "f_{coff} = 1/(6.28 * sqrt(10uH * 10uF)) = 15.9kHz\n\n"
 		(exclude_from_sim no)
-		(at 204.216 76.962 0)
+		(at 196.596 76.708 0)
 		(size 40.894 4.572)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2385,6 +2568,18 @@
 		(uuid "77c7dff8-3237-4dba-ae2c-be6bed4004c6")
 	)
 	(junction
+		(at 240.03 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dff6098-52de-4497-9ff8-521345c6d014")
+	)
+	(junction
+		(at 240.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "930c8ec5-ee7b-4a5e-b545-37cf8f92ef3d")
+	)
+	(junction
 		(at 228.6 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2492,6 +2687,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 71.12) (xy 240.03 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0277a720-c44f-41a3-8161-f40b59f07279")
+	)
+	(wire
+		(pts
 			(xy 176.53 60.96) (xy 180.34 60.96)
 		)
 		(stroke
@@ -2560,6 +2765,16 @@
 		)
 		(uuid "2006b0bc-8e17-4c70-9912-11cb765d2cfe")
 	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 240.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22be0d45-5224-4568-8efd-5df4fc4c8129")
+	)
 	(polyline
 		(pts
 			(xy 120.65 26.035) (xy 284.48 26.035)
@@ -2582,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 204.47 71.12)
+			(xy 228.6 69.85) (xy 228.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2669,6 +2884,16 @@
 			(type default)
 		)
 		(uuid "5b9101f5-fd26-41af-95a8-3bcda77d4531")
+	)
+	(wire
+		(pts
+			(xy 240.03 69.85) (xy 240.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e2e2d2-fe3d-4b93-b7d4-ca26985cd112")
 	)
 	(wire
 		(pts
@@ -2802,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 69.85) (xy 228.6 71.12)
+			(xy 204.47 69.85) (xy 204.47 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2869,6 +3094,16 @@
 			(type default)
 		)
 		(uuid "c1883eb5-23bb-4e11-bbbb-5f9b77f287bd")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 240.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c720e9fc-6bdf-4bd2-92d8-aef414fe7166")
 	)
 	(wire
 		(pts
@@ -3795,6 +4030,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 240.03 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59fb960b-8502-4129-a34c-734d1e1279b1")
+		(property "Reference" "D8"
+			(at 241.935 75.565 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 241.935 76.835 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c425f8d9d923820338ff70e5cbf9328a/LTST-C191KGKT.pdf"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 240.03 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-C191KGKT"
+			(at 240.03 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ltst-c191kgkt/diody-led-smd-kolorowe/liteon/"
+			(at 240.03 76.2 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42f15f52-9269-49d7-932d-fb7429b54ea7")
+		)
+		(pin "1"
+			(uuid "5d53b4a8-c38f-4da3-a9f7-13d6e13f6eb4")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 137.16 128.27 0)
 		(unit 1)
@@ -3931,7 +4272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 71.12 0)
+		(at 204.47 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3939,7 +4280,7 @@
 		(dnp no)
 		(uuid "76bff4b7-1814-4f70-ace8-49c99158bca8")
 		(property "Reference" "#PWR046"
-			(at 228.6 77.47 0)
+			(at 204.47 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3948,7 +4289,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 229.87 73.66 0)
+			(at 205.74 73.66 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3956,7 +4297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 71.12 0)
+			(at 204.47 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3965,7 +4306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 71.12 0)
+			(at 204.47 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3974,7 +4315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 71.12 0)
+			(at 204.47 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3989,6 +4330,150 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "791986a1-a01f-4688-acb4-d53dbb37da23")
+		(property "Reference" "R27"
+			(at 241.935 64.135 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 241.935 65.405 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 238.252 66.04 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_11.pdf"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "100 mW"
+			(at 241.935 67.945 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 241.935 66.675 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "50ppm/°C"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0603FR-072K2L"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/ac0603fr-072k2l/rezystory-smd/yageo/"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "75V"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e52ea01-8340-47dc-ad79-3e874e280a82")
+		)
+		(pin "2"
+			(uuid "f8dec937-4943-4201-929f-3070063d3bb4")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4129,6 +4614,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 240.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c2546c1-47a4-4464-a35a-286aa2d168ec")
+		(property "Reference" "TP39"
+			(at 240.665 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 241.3 72.3899 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "865060a4-fe3e-4a24-ab85-45a8cf9b9777")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "TP39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 136.525 139.7 0)
 		(unit 1)
@@ -4195,7 +4750,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 71.12 0)
+		(at 228.6 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4203,7 +4758,7 @@
 		(dnp no)
 		(uuid "9d955fc4-d925-43f2-9a89-acd59fad040e")
 		(property "Reference" "#PWR045"
-			(at 204.47 77.47 0)
+			(at 228.6 77.47 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4212,7 +4767,7 @@
 			)
 		)
 		(property "Value" "0V"
-			(at 205.74 73.66 0)
+			(at 229.87 73.66 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4220,7 +4775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 71.12 0)
+			(at 228.6 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4229,7 +4784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 71.12 0)
+			(at 228.6 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4238,7 +4793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 71.12 0)
+			(at 228.6 71.12 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4330,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 66.04 0)
+		(at 228.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4338,7 +4893,7 @@
 		(dnp no)
 		(uuid "aaddd308-83aa-49d2-a65a-fbe01d4fdbec")
 		(property "Reference" "C23"
-			(at 207.01 63.5 0)
+			(at 231.14 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4347,7 +4902,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 207.01 64.77 0)
+			(at 231.14 64.77 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4356,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 205.4352 69.85 0)
+			(at 229.5652 69.85 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4366,7 +4921,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/6e14d5d12404104c8b499de9805d45d5/CGA-series.pdf"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4376,7 +4931,7 @@
 			)
 		)
 		(property "Description" "Unpolarized ceramic capacitor"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4386,7 +4941,7 @@
 			)
 		)
 		(property "Voltage Rating" "75V"
-			(at 207.01 66.04 0)
+			(at 231.14 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4395,7 +4950,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 207.01 67.31 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4404,7 +4959,7 @@
 			)
 		)
 		(property "Package" "1210"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4412,7 +4967,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 207.01 68.58 0)
+			(at 231.14 68.58 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4421,7 +4976,7 @@
 			)
 		)
 		(property "Supplier" "TME"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4430,7 +4985,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.tme.eu/pl/en/details/cga6p1x7r1n106kac/mlcc-smd-capacitors/tdk/cga6p1x7r1n106k250ac/"
-			(at 204.47 66.04 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4448,6 +5003,76 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c215961d-87d9-49b6-b37e-0908e25b6b8d")
+		(property "Reference" "#PWR048"
+			(at 240.03 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 240.665 83.82 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 81.28 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1852860f-b2ea-4e05-9ccc-fa06e4a3d864")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/af862a95-6c6f-4b8d-b6e2-8f113ad068f6"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4595,7 +5220,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 66.04 0)
+		(at 204.47 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4603,7 +5228,7 @@
 		(dnp no)
 		(uuid "e16539cd-d4e1-4af9-abb3-94f061a1f2e6")
 		(property "Reference" "C24"
-			(at 231.14 63.5 0)
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4612,7 +5237,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 231.14 64.77 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4621,7 +5246,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 229.5652 69.85 0)
+			(at 205.4352 69.85 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4631,7 +5256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/7da762c1dbaf553c64ad9c40d3603826/mlcc_samsung.pdf"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4641,7 +5266,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4651,7 +5276,7 @@
 			)
 		)
 		(property "Voltage Rating" "16V"
-			(at 231.14 66.04 0)
+			(at 207.01 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4660,7 +5285,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 231.14 67.31 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4669,7 +5294,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4677,7 +5302,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 231.14 68.58 0)
+			(at 207.01 68.58 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4686,7 +5311,7 @@
 			)
 		)
 		(property "Supplier" "TME"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4695,7 +5320,7 @@
 			)
 		)
 		(property "MPN" "CL10B104KO8WPNC"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4704,7 +5329,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.tme.eu/pl/details/cl10b104ko8wpnc/kondensatory-mlcc-smd/samsung/"
-			(at 228.6 66.04 0)
+			(at 204.47 66.04 0)
 			(effects
 				(font
 					(size 0.762 0.762)
