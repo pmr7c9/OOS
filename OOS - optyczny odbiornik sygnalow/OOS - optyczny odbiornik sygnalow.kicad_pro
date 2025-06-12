@@ -529,7 +529,7 @@
         "clearance": 0.2,
         "name": "+32V",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -539,7 +539,7 @@
         "clearance": 0.2,
         "name": "+3V3",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -549,7 +549,7 @@
         "clearance": 0.2,
         "name": "+5V",
         "pcb_color": "rgb(255, 255, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 255, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -559,7 +559,7 @@
         "clearance": 0.2,
         "name": "Analog",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -567,9 +567,19 @@
       },
       {
         "clearance": 0.2,
-        "name": "BAT",
+        "name": "BAT+",
+        "pcb_color": "rgb(140, 181, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "BAT-",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -585,7 +595,7 @@
         "microvia_drill": 0.0,
         "name": "Signal",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -610,6 +620,14 @@
       {
         "netclass": "+5V",
         "pattern": "+5V*"
+      },
+      {
+        "netclass": "BAT-",
+        "pattern": "-BAT"
+      },
+      {
+        "netclass": "BAT+",
+        "pattern": "+BAT"
       }
     ]
   },
