@@ -1425,48 +1425,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Rotary_1x8_MP"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "Rotary_switch:SR17A1815F89N"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 12.7 0)
+			(property "Reference" "S"
+				(at 21.59 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "SW_Rotary_1x8_MP"
-				(at 10.16 -10.16 0)
+			(property "Value" "SR17A1815F89N"
+				(at 21.59 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.27 0 0)
+			(property "Footprint" "SR17A1815F89N"
+				(at 21.59 -84.76 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at -1.27 0 0)
+			(property "Datasheet" "https://www.tme.eu/Document/b22debaddaf95bc12514d6d76ea08372/SR17A1815F89N_DRAWING.pdf"
+				(at 21.59 -184.76 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary switch 1x8, SP8T with mount point"
+			(property "Description" "Switch: rotary; Pos: 8; 0.3A/16VDC; Poles number: 1; 30; -2070C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1475,308 +1476,79 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Rotary switch 1x8 SP8T"
-				(at 0 0 0)
+			(property "Height" "23.3"
+				(at 21.59 -384.76 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x8_MP_0_1"
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.715 0)
+			(property "TME Electronic Components Part Number" ""
+				(at 21.59 -484.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.9276 0.6604) (xy -3.9116 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 6.985)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.2226 2.2225)
-					(mid -1.116 0.449)
-					(end -1.5876 -1.5875)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -1.5876 -0.6985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -1.5876 -1.5875)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5876 -1.5875) (xy -0.8256 -1.0795)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 6.35)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -6.35)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.635 4.445)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.635 -4.445)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 0.635 -7.62) (xy 0.635 -6.35) (xy -0.635 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
 			)
-			(symbol "SW_Rotary_1x8_MP_1_1"
-				(polyline
-					(pts
-						(xy -7.62 11.43) (xy 5.08 11.43) (xy 5.08 -8.89) (xy -7.62 -8.89) (xy -7.62 11.43) (xy -7.62 11.43)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 21.59 -584.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Ninigi"
+				(at 21.59 -684.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SR17A1815F89N"
+				(at 21.59 -784.76 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SR17A1815F89N_1_1"
+				(rectangle
+					(start 5.08 12.7)
+					(end 20.32 -12.7)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 10.16) (xy -3.81 10.16) (xy -3.81 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name ""
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "MH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1785,117 +1557,9 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
+					(at 7.62 17.78 270)
+					(length 5.08)
+					(name "NO_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1911,9 +1575,27 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name ""
+					(at 7.62 -17.78 90)
+					(length 5.08)
+					(name "NO_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 17.78 270)
+					(length 5.08)
+					(name "NO_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1929,9 +1611,27 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name ""
+					(at 10.16 -17.78 90)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 17.78 270)
+					(length 5.08)
+					(name "NO_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1939,6 +1639,114 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 90)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "NO_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 17.78 270)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -17.78 90)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2279,7 +2087,7 @@
 	)
 	(text "Square signal\nfnom 2[MHz]\nfmax 15[MHz]\nImin 1[uA]\nImax 100[uA]"
 		(exclude_from_sim no)
-		(at 124.714 62.23 0)
+		(at 60.96 80.645 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2302,7 +2110,7 @@
 	)
 	(text "Mounting holes\nFiducials"
 		(exclude_from_sim no)
-		(at 234.95 31.75 0)
+		(at 245.364 32.004 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2313,19 +2121,6 @@
 		)
 		(uuid "38074307-6db2-4b8a-972d-4cd213b22984")
 	)
-	(text "add rotary switch for changing gain"
-		(exclude_from_sim no)
-		(at 163.83 70.485 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.127)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "409c5b17-08a8-425a-a027-04ba8d15db36")
-	)
 	(text "AC Coupling"
 		(exclude_from_sim no)
 		(at 199.39 104.775 0)
@@ -2335,16 +2130,6 @@
 			)
 		)
 		(uuid "46c88b32-43d2-4f0c-a2dd-2a0adf24c645")
-	)
-	(text "Inverting amplifier\nx10 (1k/100)"
-		(exclude_from_sim no)
-		(at 182.88 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4971adb8-2016-4fab-ab73-1bbd11e2ad49")
 	)
 	(text "AC Coupling"
 		(exclude_from_sim no)
@@ -2435,7 +2220,7 @@
 	)
 	(text "Optical receiver"
 		(exclude_from_sim no)
-		(at 122.555 28.575 0)
+		(at 128.524 70.866 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2445,6 +2230,19 @@
 			(justify left top)
 		)
 		(uuid "dc9887d5-c8f6-4ca4-9c80-2872ca3d1395")
+	)
+	(text "Rotary switch (components excluded from board)"
+		(exclude_from_sim no)
+		(at 115.316 29.972 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fcc5a3f8-f33f-4dc6-b851-49ba3cc8e27c")
 	)
 	(text_box "Review notes:\n - provide datasheet links to C1 - C6, - Done\n - provide links to Supplier's website. Saves time during search, order and veryfying nr in stock, - Done\n - provide calculations for voltage dividers R5 - R7, - Done\n - change footprint for passive components for \"HandSolder\" equivalent size, - Done\n - change V_photo text from +20V up to +32V, - Done\n - decimal writing not consistant. Please use only \",\" or only \".\", - Done\n - capacitors connected to V_{photo} (C7 - C9) need voltage rating at least 2 * 32V, changed C8 and C9 for 50V, should be enough, - Done\n - net labels around U1 and U2 are covered by test points and nets. Also make them a bit larger, - Done\n - Find different C7 with X7R dielectric - no need for X7R, the ambient will not go higher than 30C, - Done\n - add layout notes."
 		(exclude_from_sim no)
@@ -2535,6 +2333,26 @@
 			(justify left top)
 		)
 		(uuid "83b8de4b-2683-4321-b30d-6e0ab0805e84")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 115.57 33.02 0)
+		(size 109.22 36.195)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "96269bed-1f3e-41d2-8031-946761fe326d")
 	)
 	(text_box "U1__{TIA_Out} = U1__{TIA_+} - (I__{Photo}(D3_BPX65) * 1kR(R8))\nU1__{TIA_+} = 2[V]"
 		(exclude_from_sim no)
@@ -2636,6 +2454,12 @@
 		(uuid "09fa624e-52c8-4f74-9617-dd297ac70bc3")
 	)
 	(junction
+		(at 209.55 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cefb39c-c91d-430d-a646-35992dd08bac")
+	)
+	(junction
 		(at 114.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2646,12 +2470,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "126e4173-591f-460d-917a-5448b6d0fed1")
-	)
-	(junction
-		(at 172.72 93.345)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ac8136-70b6-4168-a405-7f0e044b506d")
 	)
 	(junction
 		(at 25.4 50.8)
@@ -2702,6 +2520,12 @@
 		(uuid "33547d8f-b698-4e4f-9f2f-c03b9ff2b692")
 	)
 	(junction
+		(at 172.72 102.8624)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3efac99b-af4a-4687-bd26-8fb3c29d7efb")
+	)
+	(junction
 		(at 38.1 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2714,16 +2538,22 @@
 		(uuid "405570de-5789-4c29-a820-bf94949edbf4")
 	)
 	(junction
+		(at 172.72 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565fd8d3-0bfc-4081-9c11-e7e0fb3b97d9")
+	)
+	(junction
+		(at 194.31 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6336d734-68db-45fb-84e3-287c9f860cb8")
+	)
+	(junction
 		(at 159.385 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "639720b7-a17d-4ba3-b14b-0d19daac5567")
-	)
-	(junction
-		(at 172.72 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65eb120a-e4b4-4ce4-ac12-03d806c2defb")
 	)
 	(junction
 		(at 148.59 90.805)
@@ -2756,12 +2586,6 @@
 		(uuid "80f3df2b-e040-4d8b-a777-61a4bd1006b5")
 	)
 	(junction
-		(at 194.31 93.345)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91008b24-f495-42a1-ae9d-bda024ac0b64")
-	)
-	(junction
 		(at 114.3 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2792,6 +2616,12 @@
 		(uuid "a92ecef3-ccc4-4537-b1c0-5c5c31c21e66")
 	)
 	(junction
+		(at 194.31 103.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b475351f-4998-4eec-a825-3938c66444b7")
+	)
+	(junction
 		(at 63.5 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2804,10 +2634,10 @@
 		(uuid "b5d47528-b8a3-4c64-9ba3-22c970c5f3ed")
 	)
 	(junction
-		(at 194.31 107.95)
+		(at 209.55 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b97d269f-6f7d-4f59-80f8-f6543044bd14")
+		(uuid "c92dab0d-5c43-42b3-8e59-9db4134702cc")
 	)
 	(junction
 		(at 76.2 60.96)
@@ -2820,6 +2650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e067a9d0-f8e1-4819-881a-d28c79f2c16f")
+	)
+	(junction
+		(at 130.81 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a1518a-3e40-441b-95c6-e60371956652")
 	)
 	(junction
 		(at 121.92 140.97)
@@ -2840,6 +2676,12 @@
 		(uuid "f57fb183-b76f-4b7b-82d5-a14fa4576647")
 	)
 	(junction
+		(at 209.55 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f70f593a-6a36-417c-9c4e-2305148b5255")
+	)
+	(junction
 		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2850,6 +2692,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe6ab0b4-e836-4db8-ace7-8b92b28825c1")
+	)
+	(no_connect
+		(at 156.21 53.34)
+		(uuid "6f881f35-76b2-4e6c-94e4-142d93e2b9bb")
+	)
+	(no_connect
+		(at 191.77 55.88)
+		(uuid "97db0ed0-25c2-4bf8-af35-e095a1ff14f5")
 	)
 	(wire
 		(pts
@@ -2880,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "04fc50d9-6432-4f4e-b60f-1044989edaaf")
+	)
+	(wire
+		(pts
+			(xy 195.58 38.1) (xy 198.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053e3300-6b96-4183-857a-5f58bed1a618")
 	)
 	(polyline
 		(pts
@@ -2923,16 +2783,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 105.41) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb0e884-f5e7-4399-8126-f87da86edfa0")
-	)
-	(wire
-		(pts
 			(xy 34.29 60.96) (xy 34.29 62.23)
 		)
 		(stroke
@@ -2963,6 +2813,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 57.15) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13162534-59f7-4a44-a544-31011737df43")
+	)
+	(wire
+		(pts
 			(xy 93.98 82.55) (xy 91.44 82.55)
 		)
 		(stroke
@@ -2970,6 +2830,16 @@
 			(type default)
 		)
 		(uuid "13553c5c-3d8b-4cd9-8370-429418204d04")
+	)
+	(wire
+		(pts
+			(xy 143.51 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1469d2a0-23fe-4009-87b6-ae1a4e49df47")
 	)
 	(wire
 		(pts
@@ -3001,9 +2871,19 @@
 		)
 		(uuid "198b5b2d-9d35-406c-b271-01c1d3d5e751")
 	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 209.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa45ec4-f7a5-4e39-a638-993a54170fde")
+	)
 	(polyline
 		(pts
-			(xy 128.27 71.12) (xy 128.27 68.58)
+			(xy 64.516 89.535) (xy 64.516 86.995)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +2943,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 71.12) (xy 130.81 71.12)
+			(xy 65.786 89.535) (xy 67.056 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3083,6 +2963,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 45.72) (xy 209.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25897de5-8bae-4f22-9b7d-022482e4d259")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 209.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d2bbc0-a6b9-4993-8b6f-b623c6991aaa")
+	)
+	(wire
+		(pts
 			(xy 114.3 130.81) (xy 114.3 132.08)
 		)
 		(stroke
@@ -3093,17 +2993,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.345) (xy 194.31 107.95)
+			(xy 146.05 45.72) (xy 146.05 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29a26456-e0ef-4f9b-b869-dda6782d9af4")
+		(uuid "29444ff3-bcb1-499d-899f-dc1453bf9b73")
 	)
 	(polyline
 		(pts
-			(xy 125.73 68.58) (xy 127 68.58)
+			(xy 61.976 86.995) (xy 63.246 86.995)
 		)
 		(stroke
 			(width 0)
@@ -3173,7 +3073,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 107.95) (xy 194.31 107.95)
+			(xy 194.31 103.505) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e99bb0-0620-4aa6-aee3-b3315aa52758")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 194.31 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3193,6 +3103,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 48.26) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d58e90-1af9-40b4-b26c-ecad8a81e865")
+	)
+	(wire
+		(pts
 			(xy 172.72 121.92) (xy 172.72 110.49)
 		)
 		(stroke
@@ -3203,13 +3123,23 @@
 	)
 	(polyline
 		(pts
-			(xy 123.19 68.58) (xy 124.46 68.58)
+			(xy 59.436 86.995) (xy 60.706 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "380987d2-b773-4940-b20e-34878df52504")
+	)
+	(wire
+		(pts
+			(xy 130.81 40.64) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385006f7-3b9d-4a3f-9ebf-20e1503d284d")
 	)
 	(wire
 		(pts
@@ -3223,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 92.71) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a36180f-837e-4b49-ae9b-a3d1ca6aa539")
+	)
+	(wire
+		(pts
 			(xy 25.4 50.8) (xy 34.29 50.8)
 		)
 		(stroke
@@ -3233,7 +3173,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 68.58) (xy 129.54 71.12)
+			(xy 65.786 86.995) (xy 65.786 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3293,6 +3233,46 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 50.8) (xy 196.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4906907c-8bff-4441-8f2c-2027a5b90533")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 194.31 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49173270-93c0-47a4-b87d-76221f808fa1")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497ede5d-d996-43c6-82b9-5abdc6e5a0a5")
+	)
+	(wire
+		(pts
+			(xy 172.72 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a929a85-8db8-4acb-b4fa-b91988bf19ca")
+	)
+	(wire
+		(pts
 			(xy 121.92 111.76) (xy 127 111.76)
 		)
 		(stroke
@@ -3340,6 +3320,36 @@
 			(type default)
 		)
 		(uuid "4c3e1138-5068-420e-bb46-eb1d2744865f")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc4c020-3837-400f-8b2e-419ba2fb536e")
+	)
+	(wire
+		(pts
+			(xy 196.85 50.8) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7105a0-462a-4116-b38e-2221c6526cac")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a29a0e-3143-476d-bd55-c59c7d1303a1")
 	)
 	(wire
 		(pts
@@ -3403,7 +3413,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 71.12) (xy 128.27 71.12)
+			(xy 63.246 89.535) (xy 64.516 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3463,7 +3473,7 @@
 	)
 	(polyline
 		(pts
-			(xy 125.73 71.12) (xy 125.73 68.58)
+			(xy 61.976 89.535) (xy 61.976 86.995)
 		)
 		(stroke
 			(width 0)
@@ -3473,7 +3483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 68.58) (xy 127 71.12)
+			(xy 63.246 86.995) (xy 63.246 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3481,19 +3491,9 @@
 		)
 		(uuid "6989f41b-1e8a-497b-b075-6e90e798ab49")
 	)
-	(wire
-		(pts
-			(xy 190.5 107.95) (xy 194.31 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afaf19d-c8b0-4019-b184-7b37483aea62")
-	)
 	(polyline
 		(pts
-			(xy 128.27 68.58) (xy 129.54 68.58)
+			(xy 64.516 86.995) (xy 65.786 86.995)
 		)
 		(stroke
 			(width 0)
@@ -3513,6 +3513,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 102.8624) (xy 172.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700af24b-67d3-4ba5-aa96-c6974c3d0c4d")
+	)
+	(wire
+		(pts
+			(xy 195.58 53.34) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732b1188-844f-4229-86d9-70897a1fd46a")
+	)
+	(wire
+		(pts
 			(xy 93.98 85.09) (xy 93.98 82.55)
 		)
 		(stroke
@@ -3523,6 +3543,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 53.34) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7497d8c6-9984-4e61-a4ce-4747f2c33622")
+	)
+	(wire
+		(pts
 			(xy 104.14 130.81) (xy 104.14 140.97)
 		)
 		(stroke
@@ -3530,6 +3560,36 @@
 			(type default)
 		)
 		(uuid "7ce9ba60-c7b6-4303-bb43-82c2e2c9c918")
+	)
+	(wire
+		(pts
+			(xy 196.85 48.26) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e008fe1-3e50-4686-a1ea-87ff17d97b42")
+	)
+	(wire
+		(pts
+			(xy 191.77 48.26) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea06af3-c8cf-49f6-b0a0-ae5242288a75")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8201e5-a9bd-442b-90b9-e2f3aeb3f17d")
 	)
 	(wire
 		(pts
@@ -3553,7 +3613,7 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 71.12) (xy 120.65 68.58)
+			(xy 56.896 89.535) (xy 56.896 86.995)
 		)
 		(stroke
 			(width 0)
@@ -3603,26 +3663,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 93.345) (xy 194.31 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d44e313-7a52-40e6-8f47-b5ce9ce11c2f")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.345) (xy 179.07 93.345)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de3a49e-4547-4a8d-a530-db0299ff8b65")
-	)
-	(wire
-		(pts
 			(xy 127 90.805) (xy 130.175 90.805)
 		)
 		(stroke
@@ -3653,16 +3693,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.345) (xy 172.72 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c25892-96e0-440d-8b41-fa5b7b27e823")
-	)
-	(wire
-		(pts
 			(xy 208.28 119.38) (xy 208.28 118.11)
 		)
 		(stroke
@@ -3670,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "95086fc6-c50d-4eda-8ae8-686614c64257")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953e2302-f634-4478-a1e5-4c0b6fa92923")
 	)
 	(wire
 		(pts
@@ -3733,6 +3773,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 50.8) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ea4d7a-998a-462c-b553-1f133d96f603")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 172.72 102.8624)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71afc85-4257-4445-b7df-e80fc4fb0e52")
+	)
+	(wire
+		(pts
 			(xy 157.48 105.41) (xy 159.385 105.41)
 		)
 		(stroke
@@ -3743,13 +3803,23 @@
 	)
 	(polyline
 		(pts
-			(xy 123.19 71.12) (xy 123.19 68.58)
+			(xy 59.436 89.535) (xy 59.436 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a855733d-dee9-4ed7-9fcb-3a8d2f38947c")
+	)
+	(wire
+		(pts
+			(xy 205.74 53.34) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa516d32-be5e-4948-b9e8-f79bd1b44d77")
 	)
 	(wire
 		(pts
@@ -3803,7 +3873,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 68.58) (xy 124.46 71.12)
+			(xy 60.706 86.995) (xy 60.706 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3823,7 +3893,7 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 68.58) (xy 121.92 71.12)
+			(xy 58.166 86.995) (xy 58.166 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3840,6 +3910,16 @@
 			(type default)
 		)
 		(uuid "b67ad1f1-78f6-4fbc-8f80-e47dd040b89d")
+	)
+	(wire
+		(pts
+			(xy 209.55 49.53) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df3a8d-f925-46a8-831c-4c063fb0518a")
 	)
 	(wire
 		(pts
@@ -3883,7 +3963,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 71.12) (xy 125.73 71.12)
+			(xy 60.706 89.535) (xy 61.976 89.535)
 		)
 		(stroke
 			(width 0)
@@ -3943,6 +4023,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 60.96) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccaae34b-3d4a-48cc-94ff-b7302d791668")
+	)
+	(wire
+		(pts
 			(xy 77.47 82.55) (xy 80.01 82.55)
 		)
 		(stroke
@@ -3953,6 +4043,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdab12c0-f7e8-4acd-a8d4-6726e3d3f701")
+	)
+	(wire
+		(pts
 			(xy 114.3 121.92) (xy 114.3 123.19)
 		)
 		(stroke
@@ -3960,6 +4060,36 @@
 			(type default)
 		)
 		(uuid "cf0a1388-9fbf-46fd-8a11-610b48d055d1")
+	)
+	(wire
+		(pts
+			(xy 191.77 53.34) (xy 195.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d013ae66-3229-4362-b442-449df8ff8759")
+	)
+	(wire
+		(pts
+			(xy 195.58 45.72) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1536daf-cf2a-4077-bee4-b60057095b5b")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 156.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e2b319-685e-4a8e-a1d0-b89e93508447")
 	)
 	(wire
 		(pts
@@ -3983,6 +4113,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 40.64) (xy 146.05 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c4a522-81d0-4b86-a265-0b867a13c94e")
+	)
+	(wire
+		(pts
 			(xy 148.59 90.805) (xy 148.59 105.41)
 		)
 		(stroke
@@ -3990,6 +4130,16 @@
 			(type default)
 		)
 		(uuid "d99cca1d-b273-45ea-bb91-43dacbe4eac7")
+	)
+	(wire
+		(pts
+			(xy 209.55 49.53) (xy 213.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac9f44c-757c-4d99-ac2f-4edcf3e729ca")
 	)
 	(wire
 		(pts
@@ -4003,6 +4153,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 45.72) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7fe01e-f5b5-4292-979e-83d43bc9d9bb")
+	)
+	(wire
+		(pts
 			(xy 38.1 50.8) (xy 50.8 50.8)
 		)
 		(stroke
@@ -4013,13 +4173,23 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 68.58) (xy 121.92 68.58)
+			(xy 56.896 86.995) (xy 58.166 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ddb51cf8-4022-4c7d-90e7-52b24b8e1a32")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7ed5b0-2bd5-4686-a85e-71de997f8fa3")
 	)
 	(wire
 		(pts
@@ -4030,6 +4200,16 @@
 			(type default)
 		)
 		(uuid "de9fecc1-383e-454d-8e97-d132831fb16d")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc9b005-4c3c-4ec3-9fcd-b0ecf3077a6a")
 	)
 	(wire
 		(pts
@@ -4093,6 +4273,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86f2b9d-6963-44f5-8f20-17f6bbab4c57")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f3cc59-c7cd-4599-9621-55cf1a67affc")
+	)
+	(wire
+		(pts
 			(xy 38.1 60.96) (xy 50.8 60.96)
 		)
 		(stroke
@@ -4100,6 +4300,16 @@
 			(type default)
 		)
 		(uuid "e93c571f-9942-4761-b8e8-141ca0b99eaf")
+	)
+	(wire
+		(pts
+			(xy 196.85 53.34) (xy 198.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6cf137-499f-4fc2-b786-a94cebaadb06")
 	)
 	(polyline
 		(pts
@@ -4143,7 +4353,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 71.12) (xy 120.65 71.12)
+			(xy 55.626 89.535) (xy 56.896 89.535)
 		)
 		(stroke
 			(width 0)
@@ -4153,13 +4363,23 @@
 	)
 	(polyline
 		(pts
-			(xy 121.92 71.12) (xy 123.19 71.12)
+			(xy 58.166 89.535) (xy 59.436 89.535)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe2db55c-01b8-4e48-b638-3206fbefb2c5")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 179.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffd5b12-30ec-43e8-994f-b4f92d42a64c")
 	)
 	(label "U1_TIA_Out_AC"
 		(at 159.385 97.79 270)
@@ -4182,7 +4402,7 @@
 		(uuid "1489d0c2-04b0-4cd0-8763-abb8f65b1bfb")
 	)
 	(label "U2_x10_Out"
-		(at 194.31 107.95 90)
+		(at 194.31 100.33 90)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -4212,7 +4432,7 @@
 		(uuid "4173888d-a4c6-4dc2-a706-0ec06b7daa73")
 	)
 	(label "U2_x10_-"
-		(at 172.72 105.41 90)
+		(at 172.72 99.06 90)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -4220,6 +4440,26 @@
 			(justify left bottom)
 		)
 		(uuid "6cb63c17-6516-45a2-b523-2d1ccb66a0a3")
+	)
+	(label "U2_x10_Out"
+		(at 213.36 49.53 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "8faf9865-3ef5-47d8-a873-2c0c9a75c959")
+	)
+	(label "U2_x10_Out"
+		(at 127 48.26 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "957250fc-9d5b-4772-aa82-96a79d89b18b")
 	)
 	(label "U2_x10_+"
 		(at 172.72 110.49 270)
@@ -4230,6 +4470,16 @@
 			(justify right bottom)
 		)
 		(uuid "ac0eba82-8498-4acd-8c68-daeeac236935")
+	)
+	(label "U2_x10_-"
+		(at 152.4 55.88 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd210533-3391-4896-bac8-f36487e3c6aa")
 	)
 	(label "U1_TIA_Out"
 		(at 148.59 105.41 90)
@@ -4277,7 +4527,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 234.95 50.8 0)
+		(at 245.11 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4286,7 +4536,7 @@
 		(fields_autoplaced yes)
 		(uuid "0345e6cf-72db-4a89-a48a-700ebbc67805")
 		(property "Reference" "H2"
-			(at 237.49 49.5299 0)
+			(at 247.65 46.9899 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4295,7 +4545,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 237.49 52.0699 0)
+			(at 247.65 49.5299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4304,7 +4554,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 234.95 50.8 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4313,7 +4563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 50.8 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4322,7 +4572,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 234.95 50.8 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4334,6 +4584,151 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "059e637c-f458-4d33-aa97-48d2f6c4235b")
+		(property "Reference" "R36"
+			(at 136.906 46.228 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 46.228 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 139.7 50.038 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 142.24 50.165 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 139.7 45.085 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 139.7 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ab05b08-85e1-4d28-a884-7d8e743993a6")
+		)
+		(pin "1"
+			(uuid "fa5ec2c6-eb37-4b12-9942-3ddf35931bd6")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5451,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 194.31 93.345 0)
+		(at 194.31 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5459,7 +5854,7 @@
 		(dnp no)
 		(uuid "1918416f-2d11-41a2-bdfc-805dcd0db8a4")
 		(property "Reference" "TP10"
-			(at 194.31 92.075 0)
+			(at 192.786 102.362 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5467,7 +5862,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 195.58 94.6149 0)
+			(at 195.58 104.7749 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5477,7 +5872,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 199.39 93.345 0)
+			(at 199.39 103.505 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5487,7 +5882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 93.345 0)
+			(at 199.39 103.505 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5497,7 +5892,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 194.31 93.345 0)
+			(at 194.31 103.505 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5513,6 +5908,76 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235945c9-c6ef-4da5-97e7-a29bcee63060")
+		(property "Reference" "#PWR050"
+			(at 173.99 31.75 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 173.355 35.56 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c9ee302-bb39-49b6-b26b-a7bf6d23686c")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5590,7 +6055,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 234.95 44.45 0)
+		(at 245.11 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5599,7 +6064,7 @@
 		(fields_autoplaced yes)
 		(uuid "2987cc99-5102-4974-b18d-a85be02e8b20")
 		(property "Reference" "H1"
-			(at 237.49 43.1799 0)
+			(at 247.65 40.6399 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5608,7 +6073,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 237.49 45.7199 0)
+			(at 247.65 43.1799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5617,7 +6082,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 234.95 44.45 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5626,7 +6091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 44.45 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5635,7 +6100,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 234.95 44.45 0)
+			(at 245.11 41.91 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5717,6 +6182,151 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3644927a-dac5-462b-a0af-9073534610b4")
+		(property "Reference" "R40"
+			(at 199.136 51.308 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100M"
+			(at 205.486 51.308 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.93 55.118 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 204.47 55.245 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 201.93 50.165 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 201.93 53.34 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d09c657-e256-4fd8-883a-3cc9cceb9309")
+		)
+		(pin "1"
+			(uuid "6fcd31d3-90f2-4c08-96b5-36f0d560d51f")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -6066,6 +6676,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 172.72 102.8624 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b8e9d99-28b5-429c-b9f8-a71a823674a4")
+		(property "Reference" "TP9"
+			(at 174.244 101.854 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 173.99 104.1323 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 177.8 102.8624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 102.8624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 102.8624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a3d1d8-1c4c-41f4-a6e8-d0e3f43b2a4c")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 34.29 62.23 0)
 		(mirror x)
@@ -6279,6 +6958,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Rotary_switch:SR17A1815F89N")
+		(at 173.99 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4008f544-1331-4e21-ae46-e7b6645334df")
+		(property "Reference" "S1"
+			(at 177.1081 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SR17A1815F89N"
+			(at 177.1081 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rotary_switch:SR17A1815F89N"
+			(at 89.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b22debaddaf95bc12514d6d76ea08372/SR17A1815F89N_DRAWING.pdf"
+			(at -10.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch: rotary; Pos: 8; 0.3A/16VDC; Poles number: 1; 30; -2070C"
+			(at 173.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.3"
+			(at -210.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -310.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -410.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ninigi"
+			(at -510.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SR17A1815F89N"
+			(at -610.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "93a14b2c-12d5-4de5-a975-7c73b8d7b44e")
+		)
+		(pin "5"
+			(uuid "f94ff734-fa34-4163-95dd-8f868f45f62a")
+		)
+		(pin "9"
+			(uuid "958e1c3c-beeb-4ba1-9000-1327d71061b3")
+		)
+		(pin "4"
+			(uuid "b395045d-3df8-486d-86c7-3c2afb3abaea")
+		)
+		(pin "10"
+			(uuid "b4d6fe63-c33c-4134-9059-c03b76f7a5af")
+		)
+		(pin "7"
+			(uuid "0bd990a9-adae-4ce3-b31b-a203c097458b")
+		)
+		(pin "MH2"
+			(uuid "937c8798-0b8e-4c81-bdc5-7698d7b97eac")
+		)
+		(pin "6"
+			(uuid "cefb85a5-d1b0-429c-918d-6e391b4e04e2")
+		)
+		(pin "MH1"
+			(uuid "4823e794-d5bb-483e-9115-012fc4e10c28")
+		)
+		(pin "2"
+			(uuid "202796c4-c13b-49fe-889b-c19eef6f475e")
+		)
+		(pin "3"
+			(uuid "52ee707c-3f98-40b4-b808-a611b6be5e7e")
+		)
+		(pin "1"
+			(uuid "3861f1b8-0943-4124-95c9-c154ebb55b22")
+		)
+		(instances
+			(project ""
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 104.14 116.84 90)
 		(unit 1)
@@ -6353,7 +7184,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 234.95 57.15 0)
+		(at 245.11 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6362,7 +7193,7 @@
 		(fields_autoplaced yes)
 		(uuid "43255b88-805d-449b-bcb6-4969cce92d88")
 		(property "Reference" "H3"
-			(at 237.49 55.8799 0)
+			(at 247.65 53.3399 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6371,7 +7202,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 237.49 58.4199 0)
+			(at 247.65 55.8799 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6380,7 +7211,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 234.95 57.15 0)
+			(at 245.11 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6389,7 +7220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 57.15 0)
+			(at 245.11 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6398,7 +7229,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 234.95 57.15 0)
+			(at 245.11 54.61 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6656,6 +7487,151 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51793e64-eac8-48be-8ca4-28db546e8b1e")
+		(property "Reference" "R28"
+			(at 180.34 90.678 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 186.182 90.678 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 182.88 94.488 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 185.42 94.615 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 182.88 89.535 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 182.88 92.71 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f282d280-51ec-45ae-b3a8-81c4196c911a")
+		)
+		(pin "1"
+			(uuid "1d9a9dcf-cb4c-4af4-8671-5c07357bed2b")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7276,75 +8252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 172.72 93.345 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6babb687-e188-491d-a7fd-908beafc9a4b")
-		(property "Reference" "TP9"
-			(at 172.72 92.075 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 173.99 94.6149 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 93.345 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 93.345 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 172.72 93.345 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3347bbc4-756b-4f63-b2a8-bb5c4c01e5d9")
-		)
-		(instances
-			(project "OOS - optyczny odbiornik sygnalow"
-				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 260.35 57.15 0)
 		(unit 1)
@@ -7547,100 +8454,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Rotary_1x8_MP")
-		(at 167.005 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72bf53ee-f637-41a7-bbc0-7cae8ab84e14")
-		(property "Reference" "SW1"
-			(at 165.735 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Rotary_1x8_MP"
-			(at 165.735 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_SH-7040B"
-			(at 165.735 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.735 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary switch 1x8, SP8T with mount point"
-			(at 167.005 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP"
-			(uuid "f94b0c21-1262-4633-bd0b-54f2d9eca738")
-		)
-		(pin "6"
-			(uuid "320f1279-5c96-4b9e-8e63-479c2ba38db8")
-		)
-		(pin "7"
-			(uuid "b03cee1e-ef13-4324-907e-934558954e73")
-		)
-		(pin "2"
-			(uuid "1452e9d2-4024-42aa-8708-e407ee10739b")
-		)
-		(pin "1"
-			(uuid "6c22404d-894a-4b5e-8ad1-29cab56fc3d5")
-		)
-		(pin "4"
-			(uuid "7a05aa7c-9c63-4f31-bcb2-8379d0a99c35")
-		)
-		(pin "5"
-			(uuid "7d91f214-8b9b-4e2d-ba9a-e1247df4e666")
-		)
-		(pin "3"
-			(uuid "cf409d8e-1b18-4fa5-806d-725c1a623bf6")
-		)
-		(pin "8"
-			(uuid "bb83eef4-efa0-4f12-9f87-ab289d50f42d")
-		)
-		(pin "9"
-			(uuid "4ecb4b75-d473-4dfe-9ece-3f8b28ab89ea")
-		)
-		(instances
-			(project ""
-				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 234.95 63.5 0)
+		(at 245.11 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7649,7 +8464,7 @@
 		(fields_autoplaced yes)
 		(uuid "769b90f9-8ab0-49f6-9e52-fa5591094ddc")
 		(property "Reference" "H4"
-			(at 237.49 62.2299 0)
+			(at 247.65 59.6899 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7658,7 +8473,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 237.49 64.7699 0)
+			(at 247.65 62.2299 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7667,7 +8482,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 234.95 63.5 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7676,7 +8491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 63.5 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7685,7 +8500,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 234.95 63.5 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8984,6 +9799,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 173.99 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a44e0b93-f96d-4b2a-a753-3f24b3969861")
+		(property "Reference" "#PWR049"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "0V"
+			(at 174.625 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb247113-8e5a-4e09-995b-6c7a724c4fbf")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 145.415 90.805 0)
 		(unit 1)
@@ -9453,15 +10338,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 93.345 90)
+		(at 139.7 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
-		(uuid "ce72e4bc-b5bb-4370-88dc-a48533e3cf68")
+		(uuid "b884b4d0-205f-4dca-be63-7073beed31d2")
 		(property "Reference" "R10"
-			(at 180.34 91.44 90)
+			(at 137.16 55.118 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9470,7 +10355,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 91.44 90)
+			(at 143.002 55.118 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9479,7 +10364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 182.88 95.123 90)
+			(at 139.7 58.928 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9489,7 +10374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
-			(at 182.88 93.345 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9499,7 +10384,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 93.345 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9509,7 +10394,7 @@
 			)
 		)
 		(property "Power Rating" "62.5mW"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9519,7 +10404,7 @@
 			)
 		)
 		(property "Tolerance" "±0.1%"
-			(at 185.42 95.25 90)
+			(at 142.24 59.055 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9528,7 +10413,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "25ppm/°C"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9538,7 +10423,7 @@
 			)
 		)
 		(property "Type" "Thin Film"
-			(at 182.88 90.17 90)
+			(at 139.7 53.975 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9546,7 +10431,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9555,7 +10440,7 @@
 			)
 		)
 		(property "Supplier" "TME"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9564,7 +10449,7 @@
 			)
 		)
 		(property "MPN" "RT0402BRD071KL"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9573,7 +10458,7 @@
 			)
 		)
 		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
-			(at 182.88 93.345 90)
+			(at 139.7 57.15 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9582,15 +10467,305 @@
 			)
 		)
 		(pin "2"
-			(uuid "65ded12b-3304-466b-8e75-75a7af5130e8")
+			(uuid "e65b5bf8-f80f-491a-a131-b6e65a845007")
 		)
 		(pin "1"
-			(uuid "1fbfbe01-c4f8-49ab-9ce1-4ccf8f257ab1")
+			(uuid "3f40d71b-c806-4a6f-85f2-60c477257ab5")
 		)
 		(instances
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d788c10b-a533-4c2f-ba7d-92968392bbbc")
+		(property "Reference" "R37"
+			(at 137.16 38.608 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 143.002 38.608 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 139.7 42.418 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 142.24 42.545 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 139.7 37.465 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 139.7 40.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47243a8b-a82a-48fb-868a-57b9be50cf80")
+		)
+		(pin "1"
+			(uuid "9613fd33-259a-4ba7-9aad-6c16f0d59117")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e1bb96a6-3ab0-4ab3-bd05-5c8eb6af77e2")
+		(property "Reference" "R39"
+			(at 199.39 43.815 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10M"
+			(at 204.47 43.815 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.93 47.498 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 45.72 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 204.47 47.625 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 201.93 42.545 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3b1bf64-83dc-4d79-bf87-fad05014b86f")
+		)
+		(pin "1"
+			(uuid "a2d69a6a-3eb1-4b9d-bfa6-e48159b598f6")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -9660,6 +10835,151 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e60ec2b6-d225-4d19-9e5d-89e2a730c91b")
+		(property "Reference" "R38"
+			(at 199.39 36.195 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 204.47 36.195 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.93 39.878 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 204.47 40.005 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 201.93 34.925 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0b8fd31-f3ad-4bd9-8b83-369a9b9ac2cc")
+		)
+		(pin "1"
+			(uuid "e7c32052-f78c-4aaa-8740-493baeca4375")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -10333,6 +11653,151 @@
 			(project "OOS - optyczny odbiornik sygnalow"
 				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fead3d98-ef44-4f31-bd16-d85c2ad5604e")
+		(property "Reference" "R41"
+			(at 199.39 59.055 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1G"
+			(at 204.47 59.055 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 201.93 62.738 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_15.pdf"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "62.5mW"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±0.1%"
+			(at 204.47 62.865 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "25ppm/°C"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thin Film"
+			(at 201.93 57.785 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD071KL"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://www.tme.eu/pl/details/rt0402brd071kl/rezystory-smd/yageo/"
+			(at 201.93 60.96 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb56a6f6-6bce-489a-a880-4cf74ce5f4d8")
+		)
+		(pin "1"
+			(uuid "d831aee7-b7bd-48c7-b54f-77c25894a57d")
+		)
+		(instances
+			(project "OOS - optyczny odbiornik sygnalow"
+				(path "/635760df-3241-4f53-aa67-bcf04a8ecd85/e837d0e3-5076-48be-97e8-87e0ec2c76e2"
+					(reference "R41")
 					(unit 1)
 				)
 			)
