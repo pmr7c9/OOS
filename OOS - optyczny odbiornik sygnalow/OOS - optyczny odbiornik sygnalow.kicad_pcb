@@ -13767,7 +13767,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+	(footprint "USB_connectors:USB_C_Receptacle_Amphenol_12401548E4-2A"
 		(layer "F.Cu")
 		(uuid "83726d32-2f8b-4e7a-ad35-85680d40d985")
 		(at 212.92 44.13 180)
@@ -13834,7 +13834,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b7de72e-9e09-4451-b916-f14eaf41d151")
+			(uuid "a8bdc833-2989-4a46-b521-85131505a3f7")
 		)
 		(fp_line
 			(start 3.25 -5.37)
@@ -13844,7 +13844,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8416a444-7bd1-441d-884b-1bea86f2f16c")
+			(uuid "99111a04-0fac-4003-b0a6-3da2591a4833")
 		)
 		(fp_line
 			(start -4.75 -5.37)
@@ -13854,7 +13854,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3a1188cb-cd9f-4b3d-8773-04548721acef")
+			(uuid "158e1225-44a2-4573-b3ae-94a19be283e7")
 		)
 		(fp_line
 			(start -4.75 -5.37)
@@ -13864,7 +13864,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "15e33f8b-a20a-48d8-bace-f2430203b19c")
+			(uuid "b9626aaa-3c73-4893-a516-c77646cee717")
 		)
 		(fp_line
 			(start 5.39 5.73)
@@ -13874,7 +13874,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "54c695e0-d145-41ea-8bda-5ad52768b538")
+			(uuid "75a4318a-7187-4071-a173-990da9e93f80")
 		)
 		(fp_line
 			(start 5.39 -5.87)
@@ -13884,7 +13884,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9a8634c3-9292-483f-9d7d-b0b471f3c538")
+			(uuid "0b3d791d-5d0b-4c17-b944-6af62dc796ca")
 		)
 		(fp_line
 			(start -5.39 5.73)
@@ -13894,7 +13894,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "334401af-7186-4f0c-8352-f933ef59c8dd")
+			(uuid "e9c25e00-d596-455b-a964-78ebfa43842e")
 		)
 		(fp_line
 			(start -5.39 -5.87)
@@ -13904,7 +13904,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e2dba700-91d8-43cd-ab62-3abecdf1a64a")
+			(uuid "59905d68-8369-47de-82be-17c4da5f8e06")
 		)
 		(fp_line
 			(start 4.6 5.23)
@@ -13914,7 +13914,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "11f16ccd-ec19-4690-ab24-5206ed3288f2")
+			(uuid "09178d22-e37a-4902-9f1d-f478cf85d815")
 		)
 		(fp_line
 			(start -4.6 5.23)
@@ -13924,7 +13924,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "94f93553-f6d8-4c3c-8f53-108639bd7c25")
+			(uuid "d0c8d857-612d-4662-9278-46bec2353b25")
 		)
 		(fp_line
 			(start -4.6 5.23)
@@ -13934,7 +13934,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a62976ee-a30b-47b0-a3af-8ab03f9ebb3e")
+			(uuid "71703648-6d7b-4534-9476-82b75d416e48")
 		)
 		(fp_line
 			(start -4.6 -5.22)
@@ -13944,7 +13944,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9c3f7cfd-fa36-4115-ba54-59bbfac9dc60")
+			(uuid "3ea135c4-8767-4e71-a824-0d6ce180eab6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -13962,14 +13962,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "bc36b295-e429-44ca-8577-195631204013")
+			(uuid "aafdbb2e-55f6-4c37-92e6-acd68055241d")
 		)
 		(pad "" np_thru_hole oval
 			(at 3.6 -4.36 180)
 			(size 0.95 0.65)
 			(drill oval 0.95 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "0c1284c8-17e3-4217-807c-7ed26c2f6aeb")
+			(uuid "2b0a9a80-1845-4c2e-b009-9c63be18045a")
 		)
 		(pad "A1" smd rect
 			(at -2.75 -5.02 180)
@@ -14274,13 +14274,13 @@
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -5.25 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -18853,7 +18853,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "a54f0492-76ef-43a3-8313-0f1ed2fcb3a2")
-		(at 198.17 77.13)
+		(at 198.432197 77.089481)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP30"
@@ -28819,6 +28819,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Opto EN"
+		(at 197.42 90.88 90)
+		(layer "F.SilkS")
+		(uuid "5ab3f8f4-af6a-4a7d-8116-861ef6310050")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3V3 OK"
 		(at 217.92 92.63 0)
 		(layer "F.SilkS")
@@ -28832,10 +28845,36 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SHDN"
+		(at 220.92 64.38 0)
+		(layer "F.SilkS")
+		(uuid "8f69f595-7a99-4299-8cf6-03d32d5001f1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V OK"
-		(at 217.92 64.13 0)
+		(at 225.42 61.88 0)
 		(layer "F.SilkS")
 		(uuid "dd7c8228-6dc0-49ee-a9be-676628432c63")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3 EN"
+		(at 197.42 81.38 90)
+		(layer "F.SilkS")
+		(uuid "faec32ab-5bca-441c-bfbc-565f8741d68c")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -31046,12 +31085,12 @@
 		(uuid "0d719172-c1b6-424e-aceb-3a3dd8c7c4db")
 	)
 	(segment
-		(start 198.21 77.09)
-		(end 198.17 77.13)
+		(start 198.432716 77.09)
+		(end 198.432197 77.089481)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "1c0bfd31-7891-4802-9610-338dadd73e29")
+		(uuid "61d4e30e-ca64-49e1-98b2-4599243eb398")
 	)
 	(segment
 		(start 207.27 76.28)
@@ -31063,11 +31102,11 @@
 	)
 	(segment
 		(start 201.42 77.09)
-		(end 198.21 77.09)
+		(end 198.432716 77.09)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "a83d700f-d651-48db-ae98-877809c34226")
+		(uuid "bd0a8e63-a804-4ae9-b7b5-ca9d6715b647")
 	)
 	(segment
 		(start 201.4775 77.0325)
@@ -31100,14 +31139,6 @@
 		(layer "F.Cu")
 		(net 27)
 		(uuid "455a0a1e-2406-4236-8a79-e303e9af6822")
-	)
-	(segment
-		(start 201.42 88.405)
-		(end 201.42 85.865)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 27)
-		(uuid "58ad68db-16f9-4372-930a-2b7b4a98ad21")
 	)
 	(segment
 		(start 201.42 91.0325)
