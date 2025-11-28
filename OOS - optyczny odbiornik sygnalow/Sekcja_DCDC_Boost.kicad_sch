@@ -2871,6 +2871,16 @@
 		)
 		(uuid "8ddb1ac5-2396-4d33-9079-da27ed0d9858")
 	)
+	(label "D4_kathode"
+		(at 172.72 81.28 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaaff497-4b98-4d77-8116-e46f98abfb16")
+	)
 	(label "U3_VIN"
 		(at 121.92 87.63 0)
 		(effects
